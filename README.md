@@ -15,7 +15,7 @@ ex) mkdir A-project
   sass —watch style.sass:style.css
 
   ```
-style.sass:style.css
+style.sass:style.css<br/>
 파일명을 지정해주는것이기때문에 파일 명은 내꺼에 맞에 변경해줘야한다.
 
 
