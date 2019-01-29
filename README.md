@@ -9,12 +9,15 @@ mkdir 프로젝트명
 ex) mkdir A-project
 ```
 
-1. 글로벌로 webpack 설치
-
+1.프로젝트 폴더에 터미널로 들어가서 명령어 실행
   ```
   /*터미널*/
-  npm i webpack -g (처음 webpack 설치할때 필수)
+  sass —watch style.sass:style.css
+
   ```
+style.sass:style.css
+파일명을 지정해주는것이기때문에 파일 명은 내꺼에 맞에 변경해줘야한다.
+
 
 
 2. 패키지 json 파일 만들기
