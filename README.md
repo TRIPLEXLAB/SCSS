@@ -1,4 +1,4 @@
-# SCSS 사용방법
+# NODE - SCSS 사용방법
 SCSS 기본에 대해 알아 봅시다.
 
 #### Getting-Started
@@ -12,20 +12,43 @@ ex) mkdir A-project
 1.프로젝트 폴더에 터미널로 들어가서 명령어 실행
   ```
   /*터미널*/
-  sass —watch style.sass:style.css
-
+  npm install -g node-sass     //NPM node(팩키지들을)(글로벌에 설치하겠다.)
+  npm install node-sass     //NPM node(팩키지들을)(로컬에 설치하겠다.)
   ```
-style.sass:style.css<br/>
-파일명을 지정해주는것이기때문에 파일 명은 내꺼에 맞에 변경해줘야한다.
+내 프로젝트 폴더 안에  
+로컬로 node_modules이라는 폴더가 생성되어야만 한다.
 
 
-
-2. 패키지 json 파일 만들기
-
+```
+/*터미널*/
+npm install scss-compile scss-compile -g  //scss처음 사용할때만 작성하는 명령어(글로벌에 설치하겠다.)
+```
+2. package.json 파일 만들기
   ```
   /*터미널*/
-  npm init      //여러 옵션을 설정할때 사용한다.
-  npm init -y   //여러 옵션을 기본값으로 사용할때 쓴다.
+  npm init      //여러 옵션을 설정할때 사용한다. (선택 사항)
+  npm init -y   //여러 옵션을 기본값으로 사용할때 쓴다. (선택 사항)
+  ```
+  ```
+  /*package.json*/
+  {
+    "name": "module-sass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js”,
+    /*-------------------------------추가-----------------------
+      "scripts": {
+      "test": "npm run scss-compile",
+      "scss-compile": "node-sass -rw SASS/main.scss -o style/css",
+      "watch": "npm run scss-compile"
+    },
+    */---------------------------------------------------------
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    "node-sass": "^4.10.0"
+    }
+  }
   ```
 
 
