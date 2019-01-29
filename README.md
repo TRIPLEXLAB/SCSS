@@ -18,7 +18,7 @@ ex) mkdir A-project
 내 프로젝트 폴더 안에  
 로컬로 node_modules이라는 폴더가 생성되어야만 한다.
 
-![alt text](http://younhoso.co.kr/webpackImg/webtest2.png)<br/> 
+![alt text](http://younhoso.co.kr/webtestImg/webtest2.png)<br/> 
 
 ```
 /*터미널*/
@@ -59,5 +59,5 @@ https://www.npmjs.com/package/scss-compile
 npm run scss-compile     //scss-compile 실행하겠다.
 ```
 
-![alt text](http://younhoso.co.kr/webpackImg/webtest1.png)<br/> 
+![alt text](http://younhoso.co.kr/webtestImg/webtest1.png)<br/> 
 scss파일 css로 컴파일 되는 모습  
