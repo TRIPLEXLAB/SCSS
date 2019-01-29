@@ -1,5 +1,5 @@
 # NODE - SCSS 사용방법
-SCSS 기본에 대해 알아 봅시다.
+SCSS 실시간으로 자동으로 compile에 대해 알아 봅시다.
 
 #### Getting-Started
 0. 프로젝트 폴더를 원하는 위치에 생성한다.
