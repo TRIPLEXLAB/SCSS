@@ -36,7 +36,7 @@ npm install scss-compile scss-compile -g  //scss처음 사용할때만 작성하
     "version": "1.0.0",
     "description": "",
     "main": "index.js”,
-    /*-------------------------------추가-----------------------
+    /*------------------------추가------------------------------
       "scripts": {
       "test": "npm run scss-compile",
       "scss-compile": "node-sass -rw SASS/main.scss -o style/css",
