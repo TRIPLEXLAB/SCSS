@@ -40,7 +40,7 @@ npm install scss-compile scss-compile -g  //scss처음 사용할때만 작성하
     /*------------------------추가------------------------------
       "scripts": {
       "test": "npm run scss-compile",
-      "scss-compile": "node-sass -rw SASS/main.scss -o style/css",  //scss파일은 감지하고 있다가. 변경이 되면 자동으로 지정한 위치에 compile하겠다는 명령어
+      "scss-compile": "node-sass -rw SCSS/main.scss -o style/css",  //scss파일은 감지하고 있다가. 변경이 되면 자동으로 지정한 위치에 compile하겠다는 명령어
       "watch": "npm run scss-compile"
     },
     */---------------------------------------------------------
