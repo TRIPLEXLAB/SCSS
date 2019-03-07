@@ -59,5 +59,5 @@ https://www.npmjs.com/package/scss-compile
 npm run scss-compile     //scss-compile 실행하겠다.
 ```
 
-![alt text](http://younhoso.co.kr/webtestImg/webtest1.png)<br/> 
+![alt text](http://younhoso.synology.me/webtestImg/webtest1.png)<br/> 
 scss파일 css로 컴파일 되는 모습  
