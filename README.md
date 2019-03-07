@@ -18,7 +18,7 @@ ex) mkdir A-project
 내 프로젝트 폴더 안에  
 로컬로 node_modules이라는 폴더가 생성되어야만 한다.
 
-![alt text](http://younhoso.co.kr/webtestImg/webtest2.png)<br/> 
+![alt text](http://younhoso.synology.me/web_images/webtest2.png)<br/> 
 
 ```
 /*터미널*/
